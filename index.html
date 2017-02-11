@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Portfolio</title>  
+
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+	.navbar {
+		margin-bottom: 0;
+		background-color: #1f51d1;
+		border: 0;
+		border-radius: 0;
+	}
+
+	.navbar li a, .navbar .navbar-brand {
+		color: #fff !important;
+	}
+
+	.navbar-nav li a:hover, .navbar-nav li.active a {
+		color: #1f51d1 !important;
+		background-color: #fff !important;
+	}
+
+	.jumbotron {
+	  background-color: #1f51d1;
+	  color: #ffffff;
+	  padding: 50px 50px;
+	  margin-bottom: 0px;
+	}
+    .block {
+	  background-color: #ffffff;
+	  opacity: 0.6;
+	  padding: 50px;
+	}
+	.btn-facebook {
+	  background-color: #3B5998;
+	  color: #ffffff;
+	}
+	.btn-twitter {
+	  background-color: #55ACEE;
+	  color: #ffffff;
+	}
+	.btn-linkedin {
+	  background-color: #007BB6;
+	  color: #ffffff;
+	}
+	.btn-github {
+	  background-color: #444444;
+	  color: #ffffff;
+	  }
+	.btn-freecodecamp {  
+	  background-color: #006400;
+	  color: #ffffff;
+	}
+	footer {
+	  text-align: center;
+	}
+    #about {
+	  text-align: center;
+	  padding: 40px 40px;
+	  color: #000000;
+	  min-height: 100vh;
+	  background: url("files/bg-about.jpg");
+	  background-size: cover;
+	  backround-opacity: 0.3;
+	  font-size: 20px;
+	}
+	#portfolio {
+	  text-align: center;
+	  padding: 25px 50px;
+	  color: #000000;
+	  min-height: 100vh;
+	}
+	#contact {
+	  text-align: right;
+	  padding: 25px 50px;
+	  color: #000000;
+	  min-height: 100vh;
+	  background: url("files/bg-contact.jpg");
+	  background-size: cover;
+	}
+	.thumbnail {
+		border: none;
+		border-radius: 0;
+		padding: 0 0 0 0;
+		max-width: 380px;
+		max-height: 250px;
+	}
+	.responsive {
+        max-width : 100%;
+        height: auto; 
+    }
+	
+	
+	
+  </style>
+</head>
+
+<!--I'm native polish, so content of my sites isn't in english - it's easier and much faster for me-->
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+	  <div class="navbar-header">
+	     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		     <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span> 
+		 </button>
+	     <a class="navbar-brand" href="#">Home</a>
+	  </div>
+	  <div class="collapse navbar-collapse" id="myNavbar">
+	    <ul class="nav navbar-nav">
+	      <li><a href="#about">O mnie</a></li>
+		  <li><a href="#portfolio">Portfolio</a></li>
+		</ul>
+	    <ul class="nav navbar-nav navbar-right">
+		  <li><a href="#contact">Kontakt</a></li>
+	    </ul>
+	   </div>	
+	</div>
+  </nav>
+ 
+  
+<div class="jumbotron text-center" style="margin-top:50px">
+	<h1>Paweł Ostatek</h1>
+	<p>"Nie narzekaj, że masz pod górę - przecież zmierzasz na szczyt!"</p>
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="block">
+    <h1>O mnie</h1>
+	<p align="justify">
+	  Miło Cię widzieć! Nazywam się Paweł Ostatek i odbywam kurs programowania FreeCodeCamp. Dlaczego to robię? Chciałbym zmienić swoją profesję. Jestem inżynierem geodetą - ta praca nie jest dla mnie satysfakcjonująca, natomiast zawsze "dobrze dogadywałem się" z komputerami. Stąd pomysł, by nauczyć się programowania. Jeśli chcesz mnie bliżej poznać, poniżej znajdziesz odniesienia do moich profili na portalach społecznościowych. Poniżej prezentuję wykonane przeze mnie projekty.
+	</p>
+	<a class="btn btn-facebook" href="https://www.facebook.com/pawelostatek" target="_blank"><span class="fa fa-facebook"></span>
+      Facebook
+    </a>
+    <a class="btn btn-twitter" href="http://www.twitter.com/pawelostatek" target="_blank"><span class="fa fa-twitter"></span>
+      Twitter
+    </a>
+    <a class="btn btn-linkedin" href="https://pl.linkedin.com/in/pawel-ostatek" target="_blank"><span class="fa fa-linkedin"></span>
+      LinkedIn
+    </a>
+    <a class="btn btn-github" href="https://github.com/PawelOstatek" target="_blank"><span class="fa fa-github"></span>
+      Git Hub
+    </a>
+    <a class="btn btn-freecodecamp" href="https://www.freecodecamp.com/pawelostatek" target="_blank"><span class="fa fa-free-code-camp"></span>
+      FreeCodeCamp
+    </a>
+  </div>
+  
+  
+</div>
+
+
+<div id="portfolio" class="container-fluid">
+  
+  <h1><br />Portfolio</h1>
+  
+	<div id="Thumbnails" class="well">
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<div class="thumbnail">
+					<a href="http://codepen.io/PawelOstatek/pen/QGQgez" target="_blank"><img src="files/thumb-helloWorld.jpg" alt="Tribute Page" class="responsive"></a>
+					<p>Hello World! (codepen.io)</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<div class="thumbnail">
+					<a href="http://codepen.io/PawelOstatek/pen/KNovvL" target="_blank"><img src="files/thumb-tributePage.jpg" alt="Tribute Page" class="responsive"></a>
+					<p>FreeCodeCamp Tribute Page (codepen.io)</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<div class="thumbnail">
+					<a href="#"><img src="files/thumb-ComingSoon.jpg" alt="Coming soon" class="responsive"></a>
+					<p>Coming Soon...</p>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+</div>
+
+
+<div id="contact" class="container-fluid">
+  <h1><br />Kontakt</h1>
+  <p>Jeśli chcesz się ze mną skontaktować, zachęcam do skorzystania z mediów społecznościowych:</p><br />
+  <a class="btn btn-facebook" href="https://www.facebook.com/pawelostatek" target="_blank"><span class="fa fa-facebook"></span>
+      Facebook
+    </a>
+    <a class="btn btn-twitter" href="http://www.twitter.com/pawelostatek" target="_blank"><span class="fa fa-twitter"></span>
+      Twitter
+    </a>
+    <a class="btn btn-linkedin" href="https://pl.linkedin.com/in/pawel-ostatek" target="_blank"><span class="fa fa-linkedin"></span>
+      LinkedIn
+    </a>
+    <a class="btn btn-github" href="https://github.com/PawelOstatek" target="_blank"><span class="fa fa-github"></span>
+      Git Hub
+    </a>
+    <a class="btn btn-freecodecamp" href="https://www.freecodecamp.com/pawelostatek" target="_blank"><span class="fa fa-free-code-camp"></span>
+      FreeCodeCamp
+    </a>
+</div>
+
+<footer>
+  <p>Copyright 	&copy;  Paweł Ostatek 2017</p>
+</footer>
+
+</body>
+</html>
